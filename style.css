@@ -125,5 +125,9 @@ hr {
 }
 
 li.active {
-    background-color:orangered;
+    background-color:lightgray;
+}
+
+li.active a {
+    color: black;
 }
