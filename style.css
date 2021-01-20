@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+}
+
+header h1 {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 45px;
+    padding: 5px 0px;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 0px;
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    /* padding: 8px 10px; */
+    background-color: #2C2C32;
+    font-size: 18px;
+    /* border: rgb(94, 89, 89) solid 1px ; */
+    /* border-radius: 30px; */
+}
+
+li:hover {
+    opacity: .9;
+    background-color:  rgb(32, 32, 32);
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font: bold;
+    text-transform: uppercase;
+    padding: 7px 52px;
+    display: block;
+}
+.zero, .one, .two, .three, .four, .five, .six {
+    flex-grow: 1;
+}
+
+
+:focus {
+    outline: none;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.p-fixed {
+    width: 100%;
+    position: fixed;
+} 
+
+.mt-5 {
+    padding-top: 100px;
+}
+
+h3 {
+    font: bold;
+    /* font-family: garamond; */
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    width: 90%; 
+    line-height: 25px;
+}
+
+/* .about-us h1 {
+    align-self: baseline;
+    margin-left: 65px;
+    font-size: 40px;
+}
+
+.about-us {
+    padding-left: 65px;
+    padding-right: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.footer-h4 {
+    background-color: rgb(32, 32, 32);
+    padding: 60px;
+}
+
+h4 {
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 15px;
+}
+
+hr {
+    width: 90%;
+}
+
+.the-flex {
+    padding-left: 65px;
+    padding-right: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the-flex h3 {
+    align-self: baseline;
+    margin-left: 65px;
+}
+
+li.active {
+    background-color:orangered;
+}
